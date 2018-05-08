@@ -1,0 +1,141 @@
+# depslib dependency file v1.0
+1519750474 source:/home/daniel/Documents/CPP/MdKPQ/main.cpp
+	<iostream>
+	<iomanip>
+	<vector>
+	<algorithm>
+	<dirent.h>
+	"sys_stk.h"
+	"mdkp.h"
+
+1518727541 source:/home/daniel/Documents/CPP/MdKPQ/mdkp.cpp
+	<cmath>
+	<climits>
+	<stdlib.h>
+	"mdkp.h"
+	"srt.h"
+
+1519750412 /home/daniel/Documents/CPP/MdKPQ/mdkp.h
+	<string>
+	<fstream>
+	<chrono>
+	<iostream>
+
+1498759593 /home/daniel/Documents/CPP/MdKPQ/srt.h
+
+1518706139 source:/home/daniel/Documents/CPP/MdKPQ/srt.cpp
+	"srt.h"
+
+1499599929 source:/home/daniel/Documents/CPP/MdKPQ/sys_stk.cpp
+	<iostream>
+	"sys_stk.h"
+
+1499599876 /home/daniel/Documents/CPP/MdKPQ/sys_stk.h
+	<sys/resource.h>
+
+1519750830 source:/home/daniel/Documents/CPP/MdKPQ/qs.cpp
+	<climits>
+	"ClpSimplex.hpp"
+	"mdkp.h"
+	"srt.h"
+
+1456129369 /usr/include/coin/ClpSimplex.hpp
+	<iostream>
+	<cfloat>
+	"ClpModel.hpp"
+	"ClpMatrixBase.hpp"
+	"ClpSolve.hpp"
+	"ClpConfig.h"
+	"AbcCommon.hpp"
+	"CoinAbcCommon.hpp"
+
+1456129369 /usr/include/coin/ClpModel.hpp
+	"ClpConfig.h"
+	<iostream>
+	<cassert>
+	<cmath>
+	<vector>
+	<string>
+	"ClpPackedMatrix.hpp"
+	"CoinMessageHandler.hpp"
+	"CoinHelperFunctions.hpp"
+	"CoinTypes.hpp"
+	"CoinFinite.hpp"
+	"ClpParameters.hpp"
+	"ClpObjective.hpp"
+
+1456129369 /usr/include/coin/ClpConfig.h
+
+1456129369 /usr/include/coin/ClpPackedMatrix.hpp
+	"CoinPragma.hpp"
+	"ClpMatrixBase.hpp"
+	<pthread.h>
+
+1439626711 /usr/include/coin/CoinPragma.hpp
+
+1456129369 /usr/include/coin/ClpMatrixBase.hpp
+	"CoinPragma.hpp"
+	"CoinTypes.hpp"
+	"CoinPackedMatrix.hpp"
+
+1439626711 /usr/include/coin/CoinTypes.hpp
+	"CoinUtilsConfig.h"
+	<stdint.h>
+
+1439626711 /usr/include/coin/CoinUtilsConfig.h
+
+1439626711 /usr/include/coin/CoinPackedMatrix.hpp
+	"CoinError.hpp"
+	"CoinTypes.hpp"
+	"CoinPackedVectorBase.hpp"
+	"CoinShallowPackedVector.hpp"
+
+1439626711 /usr/include/coin/CoinError.hpp
+	<string>
+	<iostream>
+	<cassert>
+	<cstring>
+	"CoinUtilsConfig.h"
+	"CoinPragma.hpp"
+
+1439626711 /usr/include/coin/CoinPackedVectorBase.hpp
+	<set>
+	<map>
+	"CoinPragma.hpp"
+	"CoinError.hpp"
+
+1439626711 /usr/include/coin/CoinShallowPackedVector.hpp
+	"CoinError.hpp"
+	"CoinPackedVectorBase.hpp"
+
+1439626711 /usr/include/coin/CoinMessageHandler.hpp
+	"CoinUtilsConfig.h"
+	"CoinPragma.hpp"
+	<iostream>
+	<cstdio>
+	<string>
+	<vector>
+
+1439626711 /usr/include/coin/CoinHelperFunctions.hpp
+	"CoinUtilsConfig.h"
+	<direct.h>
+	<cctype>
+	<cctype>
+	<unistd.h>
+	<cstdlib>
+	<cstdio>
+	<algorithm>
+	"CoinTypes.hpp"
+	"CoinError.hpp"
+
+1439626711 /usr/include/coin/CoinFinite.hpp
+	<limits>
+
+1456129369 /usr/include/coin/ClpParameters.hpp
+
+1456129369 /usr/include/coin/ClpObjective.hpp
+
+1456129369 /usr/include/coin/ClpSolve.hpp
+	"ClpConfig.h"
+	"AbcCommon.hpp"
+
