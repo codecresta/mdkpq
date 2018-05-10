@@ -199,6 +199,7 @@ void MdKPQ::add(int k, int x[], int r[], int &v)
 }
 
 void MdKPQ::lcl(int x[], int &v)
+/* Local search. */
 {
     int xl[N_MX], xd[N_MX], r[M_MX], rl[M_MX], rd[M_MX], vl, vd, i, j, k;
     bool imp;
@@ -281,6 +282,7 @@ void MdKPQ::algS(int s[], int t[], int &vi)
 }
 
 void MdKPQ::alg()
+/* Main algorithm. */
 {
     tm_pt t0;
     double t, ys[S_MX][N_MX], yt[S_MX][N_MX], yh[N_MX];
@@ -325,6 +327,7 @@ void MdKPQ::info()
 }
 
 void MdKPQ::ini(int sz0, int mx0, double alp0, double ep10, double ep20, bool out, int sty0, bool nwl0)
+/* Initialise. */
 {
     sz = sz0;
     mx = mx0;
