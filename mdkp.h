@@ -13,8 +13,7 @@ typedef chrono::high_resolution_clock::time_point tm_pt;
 
 #define M_MX 100
 #define N_MX 2500
-//#define S_MX 20
-#define S_MX 200
+#define S_MX 20
 #define STY_NONE 0
 #define STY_BAS 1
 #define STY_BAS_X 2
@@ -27,8 +26,8 @@ double rndDbl();
 
 class MdKP
 /* Class for Multidimensional Knapsack Problems:
- * fn = problem filename (if needed),
- * fs = file stream (if needed),
+ * pfn = problem filename (if needed),
+ * pfs = file stream (if needed),
  * itms = number of items,
  * dims = number of dimensions (constraints),
  * val = values of items,
