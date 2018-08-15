@@ -23,14 +23,14 @@ bool MdKPQ::prep(MdKP &src)
 {
 	ClpSimplex  mdl;
 	int n;
-    dims = src.dims;
-    itms = src.itms;
-    opt = src.opt;
+	dims = src.dims;
+	itms = src.itms;
+	opt = src.opt;
 	n = dims*itms;
 	double elts[n], obj[itms], col_lwr[itms], col_upr[itms], row_upr[dims], utl[itms], *dl_row, sum;
 	int row_idc[n], col_idc[n], idx[itms], i, j, k;
-    for (i = 0; i < dims; i++)
-        cap[i] = src.cap[i];
+	for (i = 0; i < dims; i++)
+		cap[i] = src.cap[i];
 	k = 0;
 	for (i = 0; i < dims; i++)
 	{
