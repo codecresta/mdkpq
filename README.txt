@@ -1,4 +1,4 @@
-Hybrid Quantum Particle Swarm Optimization Algorithm for the Multidimensional Knapsack Problem
+Hybrid quantum particle swarm optimisation algorithm for the multidimensional knapsack problem
 
 Written in C++. Contains a Code::Blocks project. Requires Coin-OR CLP. Features a command line interface.
 
