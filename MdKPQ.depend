@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1519750474 source:/home/daniel/Documents/CPP/MdKPQ/main.cpp
+1525787477 source:/home/daniel/Documents/CPP/MdKPQ/main.cpp
 	<iostream>
 	<iomanip>
 	<vector>
@@ -15,7 +15,7 @@
 	"mdkp.h"
 	"srt.h"
 
-1519750412 /home/daniel/Documents/CPP/MdKPQ/mdkp.h
+1532362073 /home/daniel/Documents/CPP/MdKPQ/mdkp.h
 	<string>
 	<fstream>
 	<chrono>

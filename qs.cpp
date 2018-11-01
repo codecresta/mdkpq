@@ -12,7 +12,6 @@ bool MdKPQ::prep(MdKP &src)
  * col_lwr = column lower values,
  * col_upr = column upper values,
  * row_upr = row upper values,
- * srg = surrogate weights (from dual solution),
  * utl = utility values of each item,
  * dl_row = dual (solution) row values,
  * sum = a summation for calculating utility values,
@@ -61,6 +60,7 @@ bool MdKPQ::prep(MdKP &src)
             sum = 0;
             for (i = 0; i < dims; i++)
                 sum += dl_row[i]*src.wei[i][j];
+                // algorithm variation, try instead: sum += dl_row[i]*src.wei[i][j]/cap[i];
             idx[j] = j;
             utl[j] = src.val[j]/sum;
         }
