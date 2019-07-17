@@ -8,5 +8,4 @@ See program comments for further information / references!
 
 TODO
 - use the heap (with new and delete) instead of the stack for large arrays
-- reduce the stack size to 1024*1024
-- use longer more descriptive names for variables and functions
+- reduce the stack size
