@@ -8,4 +8,4 @@ See program comments for further information / references!
 
 TODO
 - use the heap (with new and delete) instead of the stack for large arrays
-- reduce the stack size
+- remove the stack resize code
