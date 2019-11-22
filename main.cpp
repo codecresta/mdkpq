@@ -26,7 +26,7 @@
 #include "sys_stk.h"
 #include "mdkp.h"
 
-#define STK_SZ 256*1024*1024
+#define STK_SZ 1024*1024
 #define MX_RNS 30
 #define MN_PREC 2
 #define MX_PRBS 1000

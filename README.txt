@@ -5,3 +5,7 @@ Written in C++. Contains a Code::Blocks project. Requires Coin-OR CLP. Features 
 Daniel W. Grace, email: danwgrace@gmail.com
 
 See program comments for further information / references!
+
+TODO
+- use the heap (with new and delete) instead of the stack for large arrays, or use C++ arrays
+- reduce the stack size
